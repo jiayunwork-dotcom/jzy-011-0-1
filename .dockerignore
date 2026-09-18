@@ -1,0 +1,7 @@
+# Build artifacts
+/ackermann
+/out/
+*.test
+
+# Local toolchain / files
+.DS_Store
