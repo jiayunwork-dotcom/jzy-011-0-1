@@ -1,20 +1,15 @@
-# 依赖与构建产物
-node_modules/
-venv/
-__pycache__/
-*.pyc
-dist/
-build/
-*.egg-info/
+# Binaries
+/ackermann-server
+/bin/
+*.exe
+*.test
+*.out
 
-# 环境与密钥
+# Local env / data
 .env
-*.key
-*.pem
-auth.env
+*.pgdata/
 
-# IDE / 系统
-.vscode/
+# Editor/OS
 .idea/
-*.swp
+.vscode/
 .DS_Store
